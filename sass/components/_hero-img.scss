@@ -1,0 +1,69 @@
+.hero-image {
+  @media screen and(min-width: 0px) and(max-width: 767px) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/bc_fone/header_m.jpg);
+
+    @media (min-device-pixel-ratio: 2) and(min-width: 0px) and(max-width: 767px),
+      (min-resolution: 192dpi) and(min-width: 0px) and(max-width: 767px),
+      (min-resolution: 2dppx) and (min-width: 0px) and(max-width: 767px) {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/bc_fone/header_2xm.jpg);
+    }
+    background-color: $main-color;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  @media screen and(min-width:768px) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/bc_fone/header_t.jpg);
+
+    @media (min-device-pixel-ratio: 2) and (min-width: 768px),
+      (min-resolution: 192dpi) and (min-width: 768px),
+      (min-resolution: 2dppx) and (min-width: 768px) {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/bc_fone/header_2xt.jpg);
+    }
+    background-color: $main-color;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  @media screen and(min-width:1200px) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/bc_fone/header_d.jpg);
+
+    @media (min-device-pixel-ratio: 2) and (min-width: 1200px),
+      (min-resolution: 192dpi) and (min-width: 1200px),
+      (min-resolution: 2dppx) and (min-width: 1200px) {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/bc_fone/header_2xd.jpg);
+    }
+    background-color: $main-color;
+  }
+}

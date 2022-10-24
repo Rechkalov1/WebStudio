@@ -1,0 +1,45 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header__box {
+  @media screen and (max-width: 767px) {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  @media screen and (min-width: 768px) {
+    align-items: center;
+
+    display: flex;
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+
+.header__website {
+  font-family: $second-style;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+  letter-spacing: 0.03em;
+
+  color: $color-blue;
+}
+
+.header__logo {
+  font-family: $second-style;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
